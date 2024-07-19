@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuerry</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./imagem/time-1606153_640.png" alt="relogio">
+        <h1>Agenda</h1>
+        <button class="button-abrir-agenda" type="button">Abrir agenda</button>
+    </header>
+    <form>
+        <h2>Agenda de atividades</h2>
+        <input id="nova-atividade" type="text" placeholder="Adicionar atividade">
+        <button class="button-add" type="submit">Adicionar</button>
+        <button id="botao-cancelar">Fechar agenda</button>
+    </form>
+    <ul>
+        <li>
+            <p id="atividade" style="display: none;"></p>
+        </li>
+    </ul>
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

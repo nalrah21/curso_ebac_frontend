@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header img{
+    max-width: 36px;
+    width: 100%;
+    margin-right: 16px;
+}
+
+header{
+    background-color: #64748b;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid #94a3b8;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header button{
+    margin-left: 16px;
+}
+
+form{
+    background-color: #c8d6e5;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+form h2{
+    margin-bottom: 16px;
+}
+
+input, button{
+    padding: 8px;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 24px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+}
+
+button:hover{
+    background-color: #15803d;
+}
+
+button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button-abrir-agenda{
+    background-color: #0ea5e9;
+}
+
+.button-abrir-agenda:hover{
+    background-color: #2563eb;
+}
+
+.button-add{
+    margin-left: 6px;
+}
+
+#botao-cancelar{
+    background-color: red;
+}
+
+li{
+    background-color: #e0f2fe;
+    text-align: center;
+    list-style: none;
+}
+
+li p{
+    font-size: 16px;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #a5b4fc;
+}
+
+.riscado {
+    text-decoration: line-through;
+    background-color: #34d399;
+}
